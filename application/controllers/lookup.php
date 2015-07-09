@@ -2,6 +2,23 @@
 
 class Lookup extends MY_Controller {
 
+	/**
+	 * Index Page for this controller.
+	 *
+	 * Maps to the following URL
+	 * 		http://example.com/index.php/welcome
+	 *	- or -  
+	 * 		http://example.com/index.php/welcome/index
+	 *	- or -
+	 * Since this controller is set as the default controller in 
+	 * config/routes.php, it's displayed at http://example.com/
+	 *
+	 * So any other public methods not prefixed with an underscore will
+	 * map to /index.php/welcome/<method_name>
+	 * @see http://codeigniter.com/user_guide/general/urls.html
+	 */
+	
+
 	public function index() {
 		if ($this->session->userdata('username') == null) {
 			$this->load->view('welcome_message', array("error"=>"Vous n'êtes pas authentifié."));
@@ -35,9 +52,7 @@ class Lookup extends MY_Controller {
         }
 
 
-		$this->load->library("redis");
-		$this->redis->set("modologin:".$this->session->userdata('username').":".time(), $_SERVER['REMOTE_ADDR']. " (lookup show fetch -> ".$nickname. ")");
-       
+		$this->load->library("redis");       
 
 		$back = array();
         if ($data != false)
@@ -116,6 +131,12 @@ class Lookup extends MY_Controller {
 
 		$friends = $this->redis->lrange("friends:$data", 0, -1);
 		$back["friends"] = ($friends == null) ? 0 : count($friends);
+
+		$anticheatscore = $this->redis->hget("anticheat:banscores", $data);
+		$back["acscore"] = ($anticheatscore == null) ? 0 : $anticheatscore;
+
+		$cheats = $this->redis->smembers("anticheat:log:".$data);
+		$back["accheats"] = ($cheats == null) ? array() : $cheats;
 
 		$this->load->view($show, $back);
 	}

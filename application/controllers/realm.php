@@ -14,7 +14,6 @@ class Realm extends MY_Controller {
 		$this->load->library("redis");
 		$db_pwd = $this->redis->get("modpassword:".$login);
 		if ($db_pwd == $password) {
-			$this->redis->set("modologin:".$login.":".time(), $_SERVER['REMOTE_ADDR']. " (login)");
 			$this->session->set_userdata('username', $login);
 			redirect('lookup/index', 'refresh');
 		}
