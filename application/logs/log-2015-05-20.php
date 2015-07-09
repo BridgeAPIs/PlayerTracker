@@ -1,0 +1,59 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2015-05-20 09:46:16 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 276
+ERROR - 2015-05-20 09:46:16 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 278
+ERROR - 2015-05-20 09:46:16 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 280
+ERROR - 2015-05-20 09:46:16 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 276
+ERROR - 2015-05-20 09:46:16 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 278
+ERROR - 2015-05-20 09:46:16 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 280
+ERROR - 2015-05-20 09:46:16 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 276
+ERROR - 2015-05-20 09:46:16 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 278
+ERROR - 2015-05-20 09:46:16 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 280
+ERROR - 2015-05-20 09:46:16 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 276
+ERROR - 2015-05-20 09:46:16 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 278
+ERROR - 2015-05-20 09:46:16 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 280
+ERROR - 2015-05-20 09:46:16 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 276
+ERROR - 2015-05-20 09:46:16 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 278
+ERROR - 2015-05-20 09:46:16 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 280
+ERROR - 2015-05-20 09:46:16 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 276
+ERROR - 2015-05-20 09:46:16 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 278
+ERROR - 2015-05-20 09:46:16 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 280
+ERROR - 2015-05-20 09:49:55 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 276
+ERROR - 2015-05-20 09:49:55 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 278
+ERROR - 2015-05-20 09:49:55 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 280
+ERROR - 2015-05-20 09:49:55 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 276
+ERROR - 2015-05-20 09:49:55 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 278
+ERROR - 2015-05-20 09:49:55 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 280
+ERROR - 2015-05-20 09:49:55 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 276
+ERROR - 2015-05-20 09:49:55 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 278
+ERROR - 2015-05-20 09:49:55 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 280
+ERROR - 2015-05-20 09:49:55 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 276
+ERROR - 2015-05-20 09:49:55 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 278
+ERROR - 2015-05-20 09:49:55 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 280
+ERROR - 2015-05-20 09:49:55 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 276
+ERROR - 2015-05-20 09:49:55 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 278
+ERROR - 2015-05-20 09:49:55 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 280
+ERROR - 2015-05-20 09:49:55 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 276
+ERROR - 2015-05-20 09:49:55 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 278
+ERROR - 2015-05-20 09:49:55 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 280
+ERROR - 2015-05-20 13:26:28 --> 404 Page Not Found --> realm/index
+ERROR - 2015-05-20 13:32:25 --> Severity: Warning  --> Missing argument 1 for Lookup::show() /home/aurelienay/www/modo/application/controllers/lookup.php 54
+ERROR - 2015-05-20 19:42:28 --> Severity: Warning  --> Missing argument 1 for Lookup::show() /home/aurelienay/www/modo/application/controllers/lookup.php 54
+ERROR - 2015-05-20 21:53:46 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 276
+ERROR - 2015-05-20 21:53:46 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 278
+ERROR - 2015-05-20 21:53:46 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 280
+ERROR - 2015-05-20 21:53:46 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 276
+ERROR - 2015-05-20 21:53:46 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 278
+ERROR - 2015-05-20 21:53:46 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 280
+ERROR - 2015-05-20 21:53:46 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 276
+ERROR - 2015-05-20 21:53:46 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 278
+ERROR - 2015-05-20 21:53:46 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 280
+ERROR - 2015-05-20 21:53:46 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 276
+ERROR - 2015-05-20 21:53:46 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 278
+ERROR - 2015-05-20 21:53:46 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 280
+ERROR - 2015-05-20 21:53:46 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 276
+ERROR - 2015-05-20 21:53:46 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 278
+ERROR - 2015-05-20 21:53:46 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 280
+ERROR - 2015-05-20 21:53:46 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 276
+ERROR - 2015-05-20 21:53:46 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 278
+ERROR - 2015-05-20 21:53:46 --> Severity: Notice  --> Undefined offset: 1 /home/aurelienay/www/modo/application/views/results.php 280
