@@ -1,11 +1,14 @@
+<?php
+$this->load->helper('url');
+?>
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
 		<title>Modo Tracker</title>
-		<link href="//samagames.net/modo/assets/css/bootstrap.min.css" rel="stylesheet">
-		<script type="text/javascript" src="//samagames.net/modo/assets/js/jquery.min.js"></script> 
-		<script type="text/javascript" src="//samagames.net/modo/assets/js/bootstrap.min.js"></script> 
+		<link href="<?php echo base_url("assets/css/bootstrap.min.css"); ?>" rel="stylesheet">
+		<script type="text/javascript" src="<?php echo base_url("assets/js/jquery.min.js"); ?>"></script> 
+		<script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap.min.js"); ?>"></script> 
 
 		<style>
 			background-image: {
@@ -28,7 +31,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">SamaGames</a>
+      <a class="navbar-brand" href="#">PlayerTracker</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

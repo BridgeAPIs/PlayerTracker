@@ -1,14 +1,15 @@
 <?php 
 include("colors.php");
+$this->load->helper('url');
 ?>
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
 		<title>Modo Tracker</title>
-		<link href="//samagames.net/modo/assets/css/bootstrap.min.css" rel="stylesheet">
-		<script type="text/javascript" src="//samagames.net/modo/assets/js/jquery.min.js"></script> 
-		<script type="text/javascript" src="//samagames.net/modo/assets/js/bootstrap.min.js"></script> 
+		<link href="<?php echo base_url("assets/css/bootstrap.min.css"); ?>" rel="stylesheet">
+		<script type="text/javascript" src="<?php echo base_url("assets/js/jquery.min.js"); ?>"></script> 
+		<script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap.min.js"); ?>"></script> 
 	</head>
 	<body>
 <?php
@@ -88,7 +89,7 @@ function getIcon($sanction) {
 							?><td><?php echo $data->duration; ?></td><?php
 						} ?>
 						<td><?php echo $reason; ?></td>
-						<td><img src="http://samagames.net/modo/assets/heads.php?cache=16&size=16&name=<?php echo $data->addedBy; ?>" /> <?php echo $data->addedBy; ?></td>
+						<td><img src="<?php echo base_url("assets/heads.php?cache=16&size=16&name=".$data->addedBy); ?>" /> <?php echo $data->addedBy; ?></td>
 						<td><?php echo date('l j F Y H:i:s', $data->timestamp/1000); ?></td>
 					</tr>
 					<?php

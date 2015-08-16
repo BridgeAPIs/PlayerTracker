@@ -1,6 +1,5 @@
-<?php 
+<?php
 include("colors.php");
-$this->load->view("head"); 
 
 function getIconType($sanction) {
 	switch ($sanction) {
@@ -133,7 +132,7 @@ function getIcon($sanction) {
 							?><td><?php echo $data->duration; ?></td><?php
 						} ?>
 						<td><?php echo $reason; ?></td>
-						<td><img src="http://samagames.net/modo/assets/heads.php?cache=16&size=16&name=<?php echo $data->addedBy; ?>" /> <?php echo $data->addedBy; ?></td>
+						<td><img src="<?php echo base_url("assets/heads.php?cache=16&size=16&name=".$data->addedBy); ?>" /> <?php echo $data->addedBy; ?></td>
 						<td><?php echo date('l j F Y H:i:s', $data->timestamp/1000); ?></td>
 						<td>
 							<form class="form-inline" method="post">

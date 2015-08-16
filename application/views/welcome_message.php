@@ -1,9 +1,12 @@
+<?php 
+$this->load->helper('url');
+?>
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
 		<title>Modo Tracker</title>
-		<link href="//samagames.net/modo/assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="<?php echo base_url("assets/css/bootstrap.min.css"); ?>" rel="stylesheet">
 	</head>
 	<body>
 <div class="container">
