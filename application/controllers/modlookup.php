@@ -18,7 +18,7 @@ class Modlookup extends MY_Controller {
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
 	public function index() {
-		if ($this->session->userdata('usernamexd') == null) {
+		if ($this->session->userdata('username') == null) {
 			$this->load->view('welcome_message', array("error"=>"Vous n'êtes pas authentifié."));
 			return;
 		}
@@ -32,7 +32,7 @@ class Modlookup extends MY_Controller {
 			return;
 		}
 
-		if ($this->session->userdata('usernamexd') == null) {
+		if ($this->session->userdata('username') == null) {
 			$this->load->view('welcome_message', array("error"=>"Vous n'êtes pas authentifié."));
 			return;
 		}
@@ -43,7 +43,6 @@ class Modlookup extends MY_Controller {
 		}
         
 		$this->load->library("redis");
-		$this->redis->set("modologin:".$this->session->userdata('usernamexd').":".time(), $_SERVER['REMOTE_ADDR']. " (modloockup show fetch)");
 
 		$i = 0;
 		foreach ($this->redis->keys("case:*") as $key) {
