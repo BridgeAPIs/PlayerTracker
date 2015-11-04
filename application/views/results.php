@@ -1,5 +1,6 @@
 <?php
 include("colors.php");
+$this->load->view("head"); 
 
 function getIconType($sanction) {
 	switch ($sanction) {
